@@ -11,6 +11,8 @@ Les fichiers sont dans les [Releases](../../releases).
 | `birefnet-lite.onnx` (release v3) | [BiRefNet](https://github.com/ZhengPeng7/BiRefNet) lite (Zheng Peng et al.), export ONNX de [onnx-community/BiRefNet_lite-ONNX](https://huggingface.co/onnx-community/BiRefNet_lite-ONNX) | MIT, voir `LICENSE-BiRefNet` |
 | `codeformer.onnx` (release v4) | [CodeFormer](https://github.com/sczhou/CodeFormer) (Shangchen Zhou et al.), poids `codeformer.pth` v0.1.0 convertis en ONNX | **S-Lab License 1.0 : usage non commercial uniquement**, voir `LICENSE-CodeFormer` |
 | `yunet.onnx` (release v4) | [YuNet](https://github.com/opencv/opencv_zoo/tree/main/models/face_detection_yunet) 2023mar (Shiqi Yu), détection des visages | MIT, voir `LICENSE-YuNet` |
+| `sd15-inpainting-q8_0.gguf` (release v5) | [Stable Diffusion 1.5 Inpainting](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-inpainting) (Runway, CompVis), sans les poids EMA, converti en GGUF q8_0 par stable-diffusion.cpp | CreativeML Open RAIL-M (avec ses restrictions d'usage), voir `LICENSE-StableDiffusion` |
+| `sd-vulkan.zip` (release v5) | [stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp) master-929-3f8527a, version Vulkan pour Windows (sd-cli et ses bibliothèques) | MIT, voir `LICENSE-stable-diffusion.cpp` |
 | `lama.onnx` (release v2) | [LaMa](https://github.com/advimman/lama) big-lama (Samsung AI), export ONNX de [Carve/LaMa-ONNX](https://huggingface.co/Carve/LaMa-ONNX) (`lama_fp32.onnx`) | Apache-2.0, voir `LICENSE-LaMa` |
 
 Real-ESRGAN : entrée `entree` / sortie `sortie`, RGB 0–1, NCHW, taille libre, agrandissement ×4.
